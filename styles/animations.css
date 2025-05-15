@@ -1,0 +1,60 @@
+/*Transiciones y animaciones*/
+header > .navbar:hover > .navbar__link {
+  transform: scale(1.5);
+  opacity: 0.2;
+  filter: blur(1px);
+  transition: all 0.3s ease-in-out;
+  gap: var(--spacing-md);
+  padding: var(--spacing-sm);
+  margin: var(--spacing-md);
+}
+
+header > .navbar > .navbar__link:hover {
+  transform: scale(2);
+  opacity: 1;
+  filter: blur(0);
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+header > .navbar > .navbar__link:hover:before {
+  transition: transform 0.5s;
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+main > .hero > .hero__container > .hero__button:hover {
+  background-color: var(--text-color);
+  color: var(--background-color);
+  transition: all 0.3s ease-in-out;
+}
+
+main
+  > .projects
+  > .projects__container
+  > .projects__items
+  > .projects__items__details
+  > .projects__items__btn:hover {
+  background-color: var(--text-color);
+  color: var(--background-color);
+  transition: all 0.3s ease-in-out;
+}
+
+main
+  > .projects
+  > .projects__container
+  > .projects__allProjects
+  > .projects__allProjects__btn:hover {
+  background-color: var(--text-color);
+  color: var(--background-color);
+  transition: all 0.3s ease-in-out;
+}
+
+footer > .footer__container > .footer__container__link:hover {
+  background-color: var(--text-color);
+  color: var(--background-color);
+  transition: all 0.3s ease-in-out;
+  border-radius: var(--spacing-sm);
+}

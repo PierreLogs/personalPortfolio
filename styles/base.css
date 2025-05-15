@@ -1,0 +1,109 @@
+/*Este modulo debe contener lo siguiente
+Reset, variables, tipografias, colores globales*/
+
+/*Imports*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+/*Variables*/
+:root {
+  /*Colores globales*/
+  .light-mode {
+    --primary-color: #20293a;
+    --secondary-color: #394150;
+    --background-color: #f2f9fe;
+    --text-color: #111729;
+    --text-color-secondary: #7c19ee;
+    --button-color: #2a4dd0;
+  }
+
+  .dark-mode {
+    --primary-color: var(--dark-secondary);
+    --secondary-color: var(--dark-background);
+    --background-color: var(--dark-text);
+    --text-color: var(--dark-secondary);
+    --text-color-secondary: #7c19ee;
+    --button-color: #2a4dd0;
+  }
+
+  /*Modo oscuro*/
+  /*--dark-bg: #111729;
+  --dark-primary-color: #7c19ee;
+  --dark-text: #fff;
+  --dark-text-secondary: #394150;
+  --dark-button: #2a4dd0;*/
+
+  --dark-primary: #20293a;
+  --dark-secondary: #fff;
+  --dark-background: #f2f9fe98;
+  --dark-text: #111729;
+  --dark-text-secondary: #7c19ee;
+  --dark-button: #2a4dd0;
+
+  /*.dark-mode {
+    --background-color: var(--dark-bg);
+    --text-color: var(--dark-text);
+    --primary-color: var(--dark-primary-color);
+    --text-color-secondary: var(--dark-text-secondary);
+    --button-color: var(--dark-button);
+  }*/
+
+  /*diferencias entre px y rem*/
+  /*px: tamaño absoluto, no cambia segun el tamaño de la fuente, mantiene proporciones fijas (bordes, iconos)*/
+  /*rem: tamaño relativo, cambia segun la configuración del usuario, mejora accesibilidad de acuerdo al navegador, permite responsividad*/
+  /*Espaciados*/
+  --spacing-xxs: 2px;
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  /*Tipografía*/
+  --font-primary: "Poppins", sans-serif;
+  --font-secondary: "Sora", sans-serif;
+  --font-size-xs: 0.875rem; /*14px*/
+  --font-size-sm: 1rem; /*16px*/
+  --font-size-md: 1.12rem; /*18px*/
+  --font-size-lg: 3.75rem; /*60px*/
+
+  /*Bordes y sombras*/
+  --border-radius: 5px;
+  --box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: var(--font-primary);
+  color: var(--primary-color);
+  background-color: var(--background-color);
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-primary);
+  color: var(--primary-color);
+  line-height: 1.2;
+}
+
+p {
+  font-family: var(--font-secondary);
+  color: var(--secondary-color);
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: 50%;
+}
