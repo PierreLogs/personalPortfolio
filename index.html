@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Portfolio de Pierre Oscco" />
+    <meta
+      name="keywords"
+      content="portfolio, Pierre Oscco, computación, informática"
+    />
+    <meta name="author" content="Pierre Oscco" />
+    <title>MyPortfolio</title>
+    <link rel="icon" href="./assets/icons/favicon.ico" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+      integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link href="./styles/base.css" rel="stylesheet" />
+    <link href="./styles/layout.css" rel="stylesheet" />
+    <link href="./styles/components.css" rel="stylesheet" />
+    <link href="./styles/utilities.css" rel="stylesheet" />
+    <link href="./styles/animations.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="#main" class="navbar__link">Home</a>
+        <a href="#projects" class="navbar__link">Proyectos</a>
+        <a href="#about-me" class="navbar__link">Sobre mí</a>
+        <a id="email-btn" class="navbar__link">Contacto</a>
+      </nav>
+
+      <button id="themeToggle" class="themeToggle__btn">
+        <i class="ri-sun-line"></i>
+      </button>
+    </header>
+    <main id="main">
+      <section class="hero">
+        <div class="hero__profilePic">
+          <img
+            src="./assets/img/profile.png"
+            alt="Fotos de Pierre Oscco, desarrollador web"
+            class="hero__profilePic__img"
+            loading="lazy"
+          />
+        </div>
+
+        <div class="hero__container">
+          <h1 class="hero__title">Hola, soy Pierre Oscco</h1>
+          <p class="hero__description">
+            Estudiante de Computación e Informática con conocimientos en
+            desarrollo de páginas web, wireframes, mapas de de sitio, páginas
+            responsives, diseño web centrado en la accesibilidad y experiencia
+            del usuario.
+          </p>
+          <button
+            class="hero__button"
+            type="button"
+            aria-label="Ir al repositorio de github de PierreLogs"
+          >
+            <i class="ri-github-fill"></i> &nbsp;
+            <a href="https://github.com/PierreLogs" target="_blank">Mi repo</a>
+          </button>
+          <button
+            class="hero__button"
+            type="button"
+            aria-label="Ver el perfil de Pierre"
+          >
+            <i class="ri-linkedin-box-fill"></i> &nbsp;LinkedIn
+          </button>
+        </div>
+      </section>
+      <section id="projects" class="projects">
+        <div class="projects__container">
+          <h2 class="projects__title">Proyectos Académicos</h2>
+
+          <div class="projects__items">
+            <div class="projects__items__img">
+              <img
+                src="./assets/img/proyecto1.png"
+                alt="Captura del proyecto sistema de ventas"
+              />
+            </div>
+
+            <div class="projects__items__details">
+              <h3 class="projects__items__details__title">
+                Proyecto sistema de ventas
+              </h3>
+              <p class="projects__items__details__description"></p>
+              <div class="projects__items__skills">
+                <span class="items__skills">
+                  <i class="ri-java-fill"></i>
+                  Java
+                </span>
+                <span class="items__skills">
+                  <i class="ri-figma-line"></i>
+                  Figma
+                </span>
+                <span class="items__skills">
+                  <i class="ri-github-fill"></i>
+                  Github
+                </span>
+                <span class="items__skills"> JSwing</span>
+                <span class="items__skills"> POO </span>
+              </div>
+
+              <button class="projects__items__btn code" type="button">
+                <i class="ri-github-fill"></i> Code
+              </button>
+              <button class="projects__items__btn preview" type="button">
+                <i class="ri-external-link-fill"></i>Preview
+              </button>
+            </div>
+          </div>
+
+          <div class="projects__items">
+            <picture class="projects__items__img">
+              <img
+                src="./assets/img/proyecto1.png"
+                alt="Captura del proyecto sistema de ventas"
+              />
+            </picture>
+
+            <div class="projects__items__details">
+              <h3 class="projects__items__details__title">
+                Proyecto sistema de ventas
+              </h3>
+              <p class="projects__items__details__description"></p>
+              <div class="projects__items__skills">
+                <span class="items__skills">
+                  <i class="ri-html5-fill"></i>
+                  HTML
+                </span>
+                <span class="items__skills">
+                  <i class="ri-css3-fill"></i>
+                  CSS
+                </span>
+                <span class="items__skills">
+                  <i class="ri-javascript-fill"></i>
+                  JavaScript
+                </span>
+                <span class="items__skills">
+                  <i class="ri-figma-line"></i>
+                  Figma
+                </span>
+                <span class="items__skills">
+                  <i class="ri-github-fill"></i>
+                  Github
+                </span>
+                <span class="items__skills"> Responsive </span>
+                <span class="items__skills"> POO </span>
+              </div>
+
+              <button class="projects__items__btn code" type="button">
+                <i class="ri-github-fill"></i> Code
+              </button>
+              <button class="projects__items__btn preview" type="button">
+                <i class="ri-external-link-fill"></i>Preview
+              </button>
+            </div>
+          </div>
+
+          <div class="projects__items">
+            <picture class="projects__items__img">
+              <img
+                src="./assets/img/proyecto1.png"
+                alt="Captura del proyecto sistema de ventas"
+              />
+            </picture>
+
+            <div class="projects__items__details">
+              <h3 class="projects__items__details__title">
+                Proyecto portalio personal
+              </h3>
+              <p class="projects__items__details__description"></p>
+              <div class="projects__items__skills">
+                <span class="items__skills">
+                  <i class="ri-html5-fill"></i>
+                  HTML
+                </span>
+                <span class="items__skills">
+                  <i class="ri-css3-fill"></i>
+                  CSS
+                </span>
+                <span class="items__skills">
+                  <i class="ri-javascript-fill"></i>
+                  JavaScript
+                </span>
+                <span class="items__skills">
+                  <i class="ri-figma-line"></i>
+                  Figma
+                </span>
+                <span class="items__skills">
+                  <i class="ri-github-fill"></i>
+                  Github
+                </span>
+                <span class="items__skills"> Responsive </span>
+                <span class="items__skills"> POO </span>
+              </div>
+
+              <button class="projects__items__btn code" type="button">
+                <i class="ri-github-fill"></i> Code
+              </button>
+              <button class="projects__items__btn preview" type="button">
+                <i class="ri-external-link-fill"></i>Preview
+              </button>
+            </div>
+          </div>
+
+          <div class="projects__allProjects">
+            <button class="projects__allProjects__btn" type="button">
+              Ver todos mis proyectos
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about-me">
+        <div class="about__container">
+          <h2 class="about__title">Sobre mi</h2>
+          <p class="about__description">
+            Estudiante de Computación e Informática con conocimiento en
+            desarrollo de páginas web, wireframes, mapas de de sitio, páginas
+            responsives y diseño web con figma.
+          </p>
+          <p class="about__description">
+            Actualmente capacitado y con dominio de las herramientas Git, GitHub
+            y Figma. Destaco por mis habilidades de trabajo en equipo, gestión
+            del tiempo, orden, creatividad y orientación a resultados.
+          </p>
+          <p class="about__description">
+            Me encuentro orientado a desarrollarme profesionalmente en el área
+            de Desarrollo Web y futuros proyectos que me permitan aprender
+            nuevas tecnologías para mejorar mis habilidades en el campo
+            obteniendo un óptimo desempeño en el desarrollo de software.
+          </p>
+          <span class="about__skills">
+            <i class="ri-html5-fill"></i>
+            HTML
+          </span>
+          <span class="about__skills">
+            <i class="ri-css3-fill"></i>
+            CSS
+          </span>
+          <span class="about__skills">
+            <i class="ri-javascript-fill"></i>
+            JavaScript
+          </span>
+          <span class="about__skills">
+            <i class="ri-java-line"></i>
+            Java
+          </span>
+          <span class="about__skills">
+            <i class="ri-github-fill"></i>
+            GitHub
+          </span>
+          <span class="about__skills">
+            <i class="ri-figma-line"></i>
+            Figma
+          </span>
+        </div>
+        <picture class="about__profilePic">
+          <img
+            src="./assets/img/profile.png"
+            alt="Pierre Oscco imagen de perfil"
+            class="about__profilePic__img"
+          />
+        </picture>
+      </section>
+    </main>
+    <footer>
+      <div class="footer__description">
+        <p class="footer__copyright">
+          &copy; 2025 <a href="#" class="footer__github__user">PierreLogs</a>.
+          Todos los derechos reservados
+        </p>
+      </div>
+
+      <div class="footer__container">
+        <a
+          id="downloadCV"
+          class="footer__container__link"
+          aria-label="Descargar CV de Pierre"
+          >Descargar CV</a
+        >
+        <a
+          class="footer__container__link"
+          id="email-btn"
+          aria-label="Enviar email a Pierre"
+          >Contacto</a
+        >
+      </div>
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
