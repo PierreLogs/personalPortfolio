@@ -10,13 +10,13 @@ header {
   color: var(--text-color);
 }
 
-header > .navbar {
+header>.navbar {
   display: flex;
   gap: var(--spacing-lg);
   padding: var(--spacing-md);
 }
 
-header > .themeToggle__btn {
+header>.themeToggle__btn {
   padding-left: var(--spacing-lg);
   border: none;
   background-color: transparent;
@@ -30,16 +30,16 @@ main {
   align-items: center;
 }
 
-main > .hero,
-main > .projects,
-main > .about {
+main>.hero,
+main>.projects,
+main>.about {
   max-width: 80%;
   margin: var(--spacing-xl);
   gap: var(--spacing-md);
   color: var(--text-color);
 }
 
-main > .hero {
+main>.hero {
   width: 50%;
   display: flex;
   justify-content: center;
@@ -48,32 +48,28 @@ main > .hero {
   margin: var(--spacing-xl);
 }
 
-main > .hero > .hero__profilePic {
+main>.hero>.hero__profilePic {
   display: flex;
   align-items: center;
   gap: var(--spacing-md);
 }
 
-main > .hero > .hero__profilePic > .hero__profilePic__img {
-  width: 1200px;
+main>.hero>.hero__profilePic>.hero__profilePic__img {
+  width: 600px;
   height: 250px;
   border-radius: 100%;
   box-shadow: var(--box-shadow);
 }
 
-main > .hero > .hero__container > .hero__description {
+main>.hero>.hero__container>.hero__description {
   width: 80%;
 }
 
-main
-  > .hero
-  > .hero__container
-  > .hero__description
-  > .hero__description--highlight {
+main>.hero>.hero__container>.hero__description>.hero__description--highlight {
   color: var(--text-color-secondary);
 }
 
-main > .hero > .hero__container > .hero__button {
+main>.hero>.hero__container>.hero__button {
   border: none;
   display: inline-flex;
   background-color: var(--button-color);
@@ -82,47 +78,31 @@ main > .hero > .hero__container > .hero__button {
   border-radius: 12px;
 }
 
-main > .projects {
+main>.projects {
   width: 55%;
   display: inline-flex;
   justify-content: center;
   gap: var(--spacing-md);
 }
 
-main > .projects > .projects__container > .projects__items {
+main>.projects>.projects__container>.projects__items {
   display: inline-flex;
   align-items: center;
   gap: var(--spacing-md);
   margin: var(--spacing-md) auto;
 }
 
-main
-  > .projects
-  > .projects__container
-  > .projects__items
-  > .projects__items__img
-  > img {
+main>.projects>.projects__container>.projects__items>.projects__items__img>img {
   width: 200px;
   height: 160px;
   border-radius: 5px;
 }
 
-main
-  > .projects
-  > .projects__container
-  > .projects__items
-  > .projects__items__details
-  > .projects__items__skills {
+main>.projects>.projects__container>.projects__items>.projects__items__details>.projects__items__skills {
   gap: var(--spacing-md);
 }
 
-main
-  > .projects
-  > .projects__container
-  > .projects__items
-  > .projects__items__details
-  > .projects__items__skills
-  > .items__skills {
+main>.projects>.projects__container>.projects__items>.projects__items__details>.projects__items__skills>.items__skills {
   color: var(--secondary-color);
   font-weight: bold;
   font-size: var(--font-size-xs);
@@ -130,12 +110,7 @@ main
   border-radius: 12px;
 }
 
-main
-  > .projects
-  > .projects__container
-  > .projects__items
-  > .projects__items__details
-  > .projects__items__btn {
+main>.projects>.projects__container>.projects__items>.projects__items__details>.projects__items__btn {
   border: none;
   background-color: var(--button-color);
   color: var(--background-color);
@@ -144,17 +119,13 @@ main
   border-radius: 12px;
 }
 
-main > .projects > .projects__container > .projects__allProjects {
+main>.projects>.projects__container>.projects__allProjects {
   display: flex;
   justify-content: center;
   margin: var(--spacing-md);
 }
 
-main
-  > .projects
-  > .projects__container
-  > .projects__allProjects
-  > .projects__allProjects__btn {
+main>.projects>.projects__container>.projects__allProjects>.projects__allProjects__btn {
   border: none;
   display: inline-flex;
   background-color: var(--button-color);
@@ -165,18 +136,18 @@ main
   font-weight: bold;
 }
 
-main > .about {
+main>.about {
   display: inline-flex;
   justify-content: center;
   margin: var(--spacing-xl);
   gap: var(--spacing-md);
 }
 
-main > .about > .about__container {
+main>.about>.about__container {
   width: 45%;
 }
 
-main > .about > .about__container > .about__skills {
+main>.about>.about__container>.about__skills {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -184,7 +155,7 @@ main > .about > .about__container > .about__skills {
   margin: var(--spacing-md);
 }
 
-main > .about > .about__profilePic > .about__profilePic__img {
+main>.about>.about__profilePic>.about__profilePic__img {
   border-radius: 20%;
   width: 200px;
   height: 180px;
@@ -201,18 +172,18 @@ footer {
   color: var(--text-color);
 }
 
-footer > .footer__description > .footer__copyright > .footer__github__user {
+footer>.footer__description>.footer__copyright>.footer__github__user {
   color: var(--text-color-secondary);
 }
 
-footer > .footer__container {
+footer>.footer__container {
   display: flex;
   justify-content: cennter;
   margin: var(--spacing-xl);
   gap: var(--spacing-md);
 }
 
-footer > .footer__container > .footer__container__link {
+footer>.footer__container>.footer__container__link {
   color: var(--text-color-secondary);
   padding: var(--spacing-xs);
   cursor: pointer;
