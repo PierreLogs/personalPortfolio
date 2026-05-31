@@ -22,6 +22,10 @@ Portfolio web personal responsive con modo oscuro/claro, diseñado para mostrar 
 - JavaScript vanilla (DOM, localStorage, eventos)
 - Remixicon + Google Fonts (Poppins, Sora)
 
+## Demo en vivo
+
+👉 [pierrelogs.github.io/personalPortfolio](https://pierrelogs.github.io/personalPortfolio/)
+
 ## Uso
 
 Abre `index.html` en cualquier navegador moderno. No requiere build ni servidor.
